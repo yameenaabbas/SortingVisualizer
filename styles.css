@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&family=Roboto+Slab&family=Pacifico&family=Orbitron&family=Oswald:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family:  'Bebas Neue', sans-serif
+  background: #e7e6e6;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0,5rem 0;
+  color: #010101;
+}
+
+header {
+  background: #353333;
+  color: #ffffff;
+  padding: 10rem 10;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.card {
+  background: #f8f8f8; /* very light grey */
+  color: #000000;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+/* Individual font styles for each card heading */
+.card {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+}
+
+
+
+
+.card button {
+  background: #353333;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: #005fa3;
+}
